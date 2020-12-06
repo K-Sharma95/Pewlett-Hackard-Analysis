@@ -46,8 +46,14 @@ ORDER BY emp_no, to_date DESC;
 SELECT * FROM unique_titles
 
 
--- Create a query to retrieve the number of employees bt their most recent job title who are about to retire, and title it retiring_titles.csv
-
+-- Create a query to retrieve the to retire, and title it retiring_titles.csv
+SELECT COUNT(unique_titles.emp_no), retirement_titles.title
+INTO retiring_titles
+FROM unique_titles
+LEFT JOIN retirement_titles
+ON unique_titles.emp_no = retirement_titles.emp_no
+GROUP BY retirement_titles.title 
+ORDER BY retirement_titles.title 
 
 
 
