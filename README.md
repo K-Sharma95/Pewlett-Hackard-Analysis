@@ -7,11 +7,12 @@ as csv files,  and analyzed using SQL relational databases (pgadmin). Four new t
 text is located in the query folder. 
 
 ## Results
-1. 
-  -
+1. Mass enginerr retirement 
+  - As described in the retiring_titles.csv file, engineers, assistsant engineers, and senior engineers all contain a large amount of employees on the way to retirement. 
+  In order to remain prepared Pewlett-Hackard should considering hiring engineers
   
-2.
-  -
+2. Prepare for mentorship in order to transition
+  - As described in the mentorship_eligibility.csv file, amny employees nearing retirement qualify as mentors. These employees should be inventivized to help new hires in their same positions successfull transition, in order to minimize the transition period during the 'silver tsunami'. 
   
 3.
   -
@@ -25,4 +26,7 @@ text is located in the query folder.
 
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard Employees?
+
+
+
 In total, there are 1940 eligible, qialified and retirement-ready employees who many be able to mentor the next generation of employees. The required number is 
