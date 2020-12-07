@@ -7,7 +7,7 @@ as csv files,  and analyzed using SQL relational databases (pgadmin). Four new t
 text is located in the query folder. 
 
 ## Results
-1.
+1. 
   -
   
 2.
@@ -24,4 +24,5 @@ text is located in the query folder.
 - How many roles will need to be filled as the 'silver tsunami' begins to make an impact?
 
 
-Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard Employees?
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett-Hackard Employees?
+In total, there are 1940 eligible, qialified and retirement-ready employees who many be able to mentor the next generation of employees. The required number is 
